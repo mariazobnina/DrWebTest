@@ -6,6 +6,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* first text block */
+
 .historyBlock {
   padding-left: 1rem;
   margin-left: auto;
@@ -13,19 +16,13 @@ body {
 }
 
 #historyBlock1 {
-  min-height: 350px;
+  min-height: 380px;
   position: relative;
   color: #ffffff;
   text-align: left;
-  /* border-bottom: 10px solid transparent;
-  background-image: linear-gradient(lightgrey, grey), linear-gradient(to bottom right, transparent 50.5%, lightgrey 50.5%), linear-gradient(to bottom left, transparent 50.5%, lightgrey 50.5%), linear-gradient(to top right, transparent 50.5%, grey 50.5%), linear-gradient(to top left, transparent 50.5%, grey 50.5%);
-  background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
-  background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
-  background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
-  background-clip: padding-box, border-box, border-box, border-box, border-box;
-  background-origin: padding-box, border-box, border-box, border-box, border-box; */
 }
 
+/* blurring background pic + color */
 #historyBlock1::before {
   content: '';
   position: absolute;
@@ -42,12 +39,15 @@ body {
 
 .historyBlockHeading {
   padding-bottom: 1.5rem;
+}
+
+.heading {
+  font-family: Lobster;
   text-align: center;
 }
 
-#heading h1 {
+.heading h1 {
   margin: 0;
-  font-family: Lobster;
   font-size: 4rem;
   line-height: 1.2;
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.75);
@@ -56,6 +56,7 @@ body {
 .historyBlockHeading h4 {
   margin: 0;
   font-size: 1.6rem;
+  text-align: center;
 }
 
 .historyBlockHeading img {
@@ -63,8 +64,67 @@ body {
   top: 5.5rem;
 }
 
-.text {
-  max-width: 80rem;
+.text1 {
+  max-width: 70rem;
   margin-left: auto;
   margin-right: auto
+}
+
+/* second text block */
+/* figure top border */
+#historyBlock2 {
+  min-height: 350px;
+  top: -10px;
+  position: relative;
+  color: #130f0f;
+  text-align: left;
+  padding-bottom: 5rem;
+
+  border-top: 10px solid transparent;
+  background-image: linear-gradient(white, white), linear-gradient(to bottom right, transparent 50.5%, white 50.5%), linear-gradient(to bottom left, transparent 50.5%, white 50.5%), linear-gradient(to top right, transparent 50.5%, white 50.5%), linear-gradient(to top left, transparent 50.5%, white 50.5%);
+  background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+  background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+  background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+  background-clip: padding-box, border-box, border-box, border-box, border-box;
+  background-origin: padding-box, border-box, border-box, border-box, border-box;
+  background-color: white;
+  background-color: hsla(0, 0%, 0%, 0);
+}
+
+.textBlock2 {
+  display: flex;
+  justify-content: center;
+}
+
+#heading2 {
+  color: #6d4121
+}
+
+.text2 {
+  max-width: 40rem;
+  margin: 2rem;
+}
+
+.year {
+  color: #a9a9a9;
+  letter-spacing: -0.12em;
+  font-weight: 900;
+  font-size: 6rem;
+  writing-mode: vertical-lr;
+}
+
+
+/* thirds text block */
+/* figure top border */
+
+#historyBlock3 {
+  border-top: 10px solid transparent;
+  background-image: linear-gradient(#e5d3ae, #e5d3ae), linear-gradient(to bottom right, transparent 50.5%, #e5d3ae 50.5%), linear-gradient(to bottom left, transparent 50.5%, #e5d3ae 50.5%), linear-gradient(to top right, transparent 50.5%, #e5d3ae 50.5%), linear-gradient(to top left, transparent 50.5%, #e5d3ae 50.5%);
+  background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+  background-position: 0 0, 10px 0, 10px 0, 10px 100%, 10px 100%;
+  background-size: auto auto, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+  background-clip: padding-box, border-box, border-box, border-box, border-box;
+  background-origin: padding-box, border-box, border-box, border-box, border-box;
+  background-color: #e5d3ae;
+  background-color: hsla(0, 0%, 0%, 0);
 }
