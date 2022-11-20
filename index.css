@@ -154,7 +154,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 30rem;
-  padding-left: 5rem;
+  padding-left: 7rem;
 }
 
 .picsYear {
@@ -177,5 +177,167 @@ body {
   border-top: 65px solid #e5d3ae;
   width: 0;
   height: 0;
-  margin-left: 20%;
+  margin-left: 30%;
+}
+
+
+/* fourth text block */
+#historyBlock4 {
+  position: relative;
+  top: -23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstVirusColumn h3 {
+  margin-left: 5rem;
+}
+
+#year1987 {
+  color: #e5d3ae
+}
+
+#year1981 {
+  color: #e5d3ae
+}
+
+#biegePic {
+  top: -20rem;
+  left: 0rem
+}
+
+
+/* text block 5 */
+
+#historyBlock5 {
+  padding-top: 4rem;
+  background: url(./public_pics/backGroundFifth.png) center / cover no-repeat;
+  background-color: #48444c;
+  min-height: 40rem;
+}
+
+#historyBlock5Text1 {
+  color: white;
+}
+
+#historyBlock5Text2 {
+  color: white;
+}
+
+#heading5 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#year1980 {
+  color: white;
+}
+
+#year1983 {
+  color: white;
+}
+
+
+
+/* text block 6 */
+#historyBlock6 {
+  padding: 4rem;
+
+}
+
+
+
+/* text block 7 */
+#historyBlock7 {
+  padding: 2rem;
+  background: url(./public_pics/background7.png) center / cover no-repeat;
+  background-color: #1e1313;
+}
+
+#historyBlock7Text {
+  color: white;
+  padding-top: 2rem;
+}
+
+#year1991 {
+  color: white;
+}
+
+
+/* text block 8 */
+#historyBlock8 {
+  padding: 2rem;
+  background: url(./public_pics/8background.png) center / cover no-repeat;
+  background-color: #b97e52;
+}
+
+#heading8 {
+  color: white;
+}
+
+#textBlock8 {
+  color: white;
+  max-width: 70rem;
+}
+
+#text8 {
+  color: white;
+}
+
+#year1994 {
+  color: white;
+}
+
+.bottomBorder8 {
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 1000px solid transparent;
+  border-top: 100px solid #b97e52;
+  width: 0;
+  height: 0;
+  margin-left: 17%;
+}
+
+
+/* 9 text block */
+#historyBlock9 {
+  margin-bottom: 3rem;
+}
+
+
+/* 10 text block */
+
+#historyBlock10 {
+  color: white;
+  background-color: #7eb636;
+  padding-top: 5rem;
+}
+
+.textBlock10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+  padding-bottom: 5rem;
+}
+
+/* #heading10 {
+  color: white;
+} */
+
+#year2005 {
+  color: white;
+  align-self: center;
+}
+
+.column10 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  max-width: 30rem;
+  padding-left: 7rem;
 }
